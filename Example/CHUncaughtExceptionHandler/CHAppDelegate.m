@@ -8,6 +8,7 @@
 
 #import "CHAppDelegate.h"
 #import <CHUncaughtExceptionHandler/CHUncaughtExceptionHandler.h>
+#import "CHViewController.h"
 
 @implementation CHAppDelegate
 
@@ -15,7 +16,11 @@
 {
 
     [[CHUncaughtExceptionHandler defaultManager] installUncaughtExceptionHandler:YES];
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    [self.window setRootViewController: [[CHViewController alloc]init]];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

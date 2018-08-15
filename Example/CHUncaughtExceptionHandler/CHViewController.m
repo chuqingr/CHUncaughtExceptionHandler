@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     debugLog(@"%@",@"这是一个会被记录的日志");
 
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(111, 333, 111, 66)];

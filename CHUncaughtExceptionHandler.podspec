@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHUncaughtExceptionHandler'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'UncaughtExceptionHandler & Log'
 
 # This description is used to generate tags and improve search results.
@@ -27,8 +27,9 @@ TODO: Add long description of the pod here.
   s.author           = { '杨胜浩' => 'chuqingr@icloud.com' }
   s.source           = { :git => 'https://github.com/chuqingr/CHUncaughtExceptionHandler.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.platform         = :ios
   s.ios.deployment_target = '8.0'
+  s.requires_arc     = true
 
   s.source_files = 'CHUncaughtExceptionHandler/Classes/**/*'
   s.public_header_files = 'CHUncaughtExceptionHandler/Classes/CHUncaughtExceptionHandler.h'				#公开头文件配置
