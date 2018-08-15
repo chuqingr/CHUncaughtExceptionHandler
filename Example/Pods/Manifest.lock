@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CHUncaughtExceptionHandler: 443b3dc1fab21324e46c0a917f33e9b0a0e5add7
+  CHUncaughtExceptionHandler: fc16b6a9b39c35c6dca981c2ef328cf5dfe45e26
 
 PODFILE CHECKSUM: a02d6d4d1b1b3c98f9790cee553f5bb551166325
 

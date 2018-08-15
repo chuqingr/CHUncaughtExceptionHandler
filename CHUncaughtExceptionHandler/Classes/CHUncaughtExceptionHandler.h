@@ -24,10 +24,9 @@
 + (instancetype)defaultManager;
 
 /*!
- *  异常的处理方法
+ *  异常的处理方法&Log打印显示
  *
- *  @param install   是否开启捕获异常
  *  @param showAlert 是否在发生异常时弹出alertView
  */
-- (void)installUncaughtExceptionHandler:(BOOL)install showAlert:(BOOL)showAlert;
+- (void)installUncaughtExceptionHandler:(BOOL)showAlert;
 @end

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08C4FAE50A13E632A3A5223E59797D25 /* CHConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A8EB8D5C5B8AE846E57917CF38F122 /* CHConsts.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		10AD7190F1573D753F613B9302756366 /* CHUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D25BE69C4704D6384EF883A0AF6EE9 /* CHUncaughtExceptionHandler.m */; };
 		2E6E011B9B5B6409E5796731F9A347D5 /* Pods-CHUncaughtExceptionHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B0C67B17CCB1E85C65E6DCBFE074A3 /* Pods-CHUncaughtExceptionHandler_Tests-dummy.m */; };
-		34492B38EB192E778944AA9E46ED5E82 /* CHConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A8EB8D5C5B8AE846E57917CF38F122 /* CHConsts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		366954806092CD9F2029E5F760C217A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3ADFC81558137871CFEFB27ED9CD02BA /* Pods-CHUncaughtExceptionHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF95C6962DF4A05F23618E67BD1989 /* Pods-CHUncaughtExceptionHandler_Example-dummy.m */; };
 		3D8CF7487954429F46C87E59B0822AD1 /* CHLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4FE0D451531524F87DF30CB33B157 /* CHLogViewController.m */; };
-		542C907F08CE6468E3799D25C46703A6 /* CHLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C260B9611D589900EA3B59A66755C74A /* CHLogViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7390BEE7720C5CBC02A94A134E9937D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		824CE069B8835E85B48D9E457AB38483 /* CHUncaughtExceptionHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A602B5E78658CAD5F4B6265BFB67C14E /* CHUncaughtExceptionHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864985AFF07A00D11A2FA66EB1817265 /* CHLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C260B9611D589900EA3B59A66755C74A /* CHLogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93CE02C13EB2837AF6605B46A442CF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A435D1784803C946919C4ED46A624DFF /* CHUncaughtExceptionHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA996270BF93A986D819C2F3D4E24AF7 /* CHUncaughtExceptionHandler-dummy.m */; };
 		CD2895A51FE1C3FA6600AC051C61F93B /* CHUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1C9F084A3B6E1745E058FC82A3EAB /* CHUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -246,8 +246,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34492B38EB192E778944AA9E46ED5E82 /* CHConsts.h in Headers */,
-				542C907F08CE6468E3799D25C46703A6 /* CHLogViewController.h in Headers */,
+				08C4FAE50A13E632A3A5223E59797D25 /* CHConsts.h in Headers */,
+				864985AFF07A00D11A2FA66EB1817265 /* CHLogViewController.h in Headers */,
 				824CE069B8835E85B48D9E457AB38483 /* CHUncaughtExceptionHandler-umbrella.h in Headers */,
 				CD2895A51FE1C3FA6600AC051C61F93B /* CHUncaughtExceptionHandler.h in Headers */,
 			);

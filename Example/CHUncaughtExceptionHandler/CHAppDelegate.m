@@ -7,11 +7,14 @@
 //
 
 #import "CHAppDelegate.h"
+#import <CHUncaughtExceptionHandler/CHUncaughtExceptionHandler.h>
 
 @implementation CHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
+    [[CHUncaughtExceptionHandler defaultManager] installUncaughtExceptionHandler:YES];
     // Override point for customization after application launch.
     return YES;
 }

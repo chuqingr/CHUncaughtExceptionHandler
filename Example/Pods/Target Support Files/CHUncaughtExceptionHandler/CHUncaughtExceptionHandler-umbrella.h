@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "CHConsts.h"
-#import "CHLogViewController.h"
 #import "CHUncaughtExceptionHandler.h"
 
 FOUNDATION_EXPORT double CHUncaughtExceptionHandlerVersionNumber;

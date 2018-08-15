@@ -48,23 +48,23 @@ static CHUncaughtExceptionHandler *manager;
  *  @param install   是否开启捕获异常
  *  @param showAlert 是否在发生异常时弹出alertView
  */
-- (void)installUncaughtExceptionHandler:(BOOL)install showAlert:(BOOL)showAlert {
+- (void)installUncaughtExceptionHandler:(BOOL)showAlert {
 
-    if (install && showAlert) {
+    if (showAlert) {
         [self alertView:showAlert];
     }
 
-    NSSetUncaughtExceptionHandler(install ? HandleException : NULL);
-    signal(SIGABRT, install ? SignalHandler : SIG_DFL);
-    signal(SIGILL, install ? SignalHandler : SIG_DFL);
-    signal(SIGSEGV, install ? SignalHandler : SIG_DFL);
-    signal(SIGFPE, install ? SignalHandler : SIG_DFL);
-    signal(SIGBUS, install ? SignalHandler : SIG_DFL);
-    signal(SIGPIPE, install ? SignalHandler : SIG_DFL);
-    signal(SIGTRAP, install ? SignalHandler : SIG_DFL);
-    signal(SIGHUP, install ? SignalHandler : SIG_DFL);
-    signal(SIGINT, install ? SignalHandler : SIG_DFL);
-    signal(SIGQUIT, install ? SignalHandler : SIG_DFL);
+    NSSetUncaughtExceptionHandler(HandleException);
+    signal(SIGABRT  , SignalHandler);
+    signal(SIGILL   , SignalHandler);
+    signal(SIGSEGV  , SignalHandler);
+    signal(SIGFPE   , SignalHandler);
+    signal(SIGBUS   , SignalHandler);
+    signal(SIGPIPE  , SignalHandler);
+    signal(SIGTRAP  , SignalHandler);
+    signal(SIGHUP   , SignalHandler);
+    signal(SIGINT   , SignalHandler);
+    signal(SIGQUIT  , SignalHandler);
 
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(saveLog:) name:@"saveLog" object:nil];
@@ -209,16 +209,16 @@ static CHUncaughtExceptionHandler *manager;
     CFRelease(allModes);
 
     NSSetUncaughtExceptionHandler(NULL);
-    signal(SIGABRT, SIG_DFL);
-    signal(SIGILL, SIG_DFL);
-    signal(SIGSEGV, SIG_DFL);
-    signal(SIGFPE,  SIG_DFL);
-    signal(SIGBUS, SIG_DFL);
-    signal(SIGPIPE,  SIG_DFL);
-    signal(SIGTRAP, SIG_DFL);
-    signal(SIGHUP, SIG_DFL);
-    signal(SIGINT, SIG_DFL);
-    signal(SIGQUIT, SIG_DFL);
+    signal(SIGABRT  , SIG_DFL);
+    signal(SIGILL   , SIG_DFL);
+    signal(SIGSEGV  , SIG_DFL);
+    signal(SIGFPE   , SIG_DFL);
+    signal(SIGBUS   , SIG_DFL);
+    signal(SIGPIPE  , SIG_DFL);
+    signal(SIGTRAP  , SIG_DFL);
+    signal(SIGHUP   , SIG_DFL);
+    signal(SIGINT   , SIG_DFL);
+    signal(SIGQUIT  , SIG_DFL);
 
     if ([[exception name] isEqual:UncaughtExceptionHandlerSignalExceptionName]) {
 
