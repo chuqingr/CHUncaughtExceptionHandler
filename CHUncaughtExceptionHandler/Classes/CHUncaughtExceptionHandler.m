@@ -22,7 +22,7 @@ NSString * const UncaughtExceptionHandlerAddressesKey = @"UncaughtExceptionHandl
 volatile int32_t UncaughtExceptionCount = 0;
 const int32_t UncaughtExceptionMaximum = 10;
 
-static BOOL showAlertView = nil;
+static BOOL showAlertView = NO;
 
 void HandleException(NSException *exception);
 void SignalHandler(int signal);
