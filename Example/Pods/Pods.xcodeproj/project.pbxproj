@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AD7190F1573D753F613B9302756366 /* CHUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D25BE69C4704D6384EF883A0AF6EE9 /* CHUncaughtExceptionHandler.m */; };
+		2E6E011B9B5B6409E5796731F9A347D5 /* Pods-CHUncaughtExceptionHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B0C67B17CCB1E85C65E6DCBFE074A3 /* Pods-CHUncaughtExceptionHandler_Tests-dummy.m */; };
+		34492B38EB192E778944AA9E46ED5E82 /* CHConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A8EB8D5C5B8AE846E57917CF38F122 /* CHConsts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366954806092CD9F2029E5F760C217A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3ADFC81558137871CFEFB27ED9CD02BA /* Pods-CHUncaughtExceptionHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF95C6962DF4A05F23618E67BD1989 /* Pods-CHUncaughtExceptionHandler_Example-dummy.m */; };
+		3D8CF7487954429F46C87E59B0822AD1 /* CHLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4FE0D451531524F87DF30CB33B157 /* CHLogViewController.m */; };
+		542C907F08CE6468E3799D25C46703A6 /* CHLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C260B9611D589900EA3B59A66755C74A /* CHLogViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7390BEE7720C5CBC02A94A134E9937D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		824CE069B8835E85B48D9E457AB38483 /* CHUncaughtExceptionHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A602B5E78658CAD5F4B6265BFB67C14E /* CHUncaughtExceptionHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93CE02C13EB2837AF6605B46A442CF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A435D1784803C946919C4ED46A624DFF /* CHUncaughtExceptionHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA996270BF93A986D819C2F3D4E24AF7 /* CHUncaughtExceptionHandler-dummy.m */; };
+		CD2895A51FE1C3FA6600AC051C61F93B /* CHUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1C9F084A3B6E1745E058FC82A3EAB /* CHUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2CCC3615D2861F9E5841B3262593477 /* Pods-CHUncaughtExceptionHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163B5CE73CB854D2002BF66534AA5F1 /* Pods-CHUncaughtExceptionHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBD209CA0258DB8FABA8ED6628C1375 /* Pods-CHUncaughtExceptionHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEC594DD2BC6262D52518D37B835B0C /* Pods-CHUncaughtExceptionHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841F81C0095181BD8C5B62CD154C707C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8531ABC9C526671187B87015280BF0F;
+			remoteInfo = CHUncaughtExceptionHandler;
+		};
+		D5BD7FA7048F8577E5B4C87615BE8AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0FAE257B676B60DA347FFC6FBE19A9;
+			remoteInfo = "Pods-CHUncaughtExceptionHandler_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0163B5CE73CB854D2002BF66534AA5F1 /* Pods-CHUncaughtExceptionHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHUncaughtExceptionHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		01D5DE850DFC4D8C3AB0B613063F89A9 /* Pods_CHUncaughtExceptionHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHUncaughtExceptionHandler_Tests.framework; path = "Pods-CHUncaughtExceptionHandler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0314535B29997BA5ED90F3F68692D375 /* Pods-CHUncaughtExceptionHandler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHUncaughtExceptionHandler_Tests-resources.sh"; sourceTree = "<group>"; };
+		04FA172FD369310CCD07E2044A91916E /* CHUncaughtExceptionHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CHUncaughtExceptionHandler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10793A498679A64D7BF4705396F3FEB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A55BC28E43EC492156386500CC0F53B /* Pods_CHUncaughtExceptionHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHUncaughtExceptionHandler_Example.framework; path = "Pods-CHUncaughtExceptionHandler_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B339E4985B52874C69F0FCC2490A808 /* Pods-CHUncaughtExceptionHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHUncaughtExceptionHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28AD70DEA4287A35F4BE8600C8B07964 /* CHUncaughtExceptionHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHUncaughtExceptionHandler.framework; path = CHUncaughtExceptionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D25BE69C4704D6384EF883A0AF6EE9 /* CHUncaughtExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHUncaughtExceptionHandler.m; path = CHUncaughtExceptionHandler/Classes/CHUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B3DFF52A972FA94CA950690649EA196 /* Pods-CHUncaughtExceptionHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHUncaughtExceptionHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		659AEA42D6F37DD106C5F84B4E2B468F /* Pods-CHUncaughtExceptionHandler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHUncaughtExceptionHandler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		66BF95C6962DF4A05F23618E67BD1989 /* Pods-CHUncaughtExceptionHandler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHUncaughtExceptionHandler_Example-dummy.m"; sourceTree = "<group>"; };
+		6BE32B7299EEDF37CAA6B14E6D70CFA5 /* Pods-CHUncaughtExceptionHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHUncaughtExceptionHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7BC8941333898E680F59D86CF238A992 /* Pods-CHUncaughtExceptionHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHUncaughtExceptionHandler_Tests.modulemap"; sourceTree = "<group>"; };
+		7CEC594DD2BC6262D52518D37B835B0C /* Pods-CHUncaughtExceptionHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHUncaughtExceptionHandler_Example-umbrella.h"; sourceTree = "<group>"; };
+		7DF79AFC959037F9E4F549DC01FB428D /* Pods-CHUncaughtExceptionHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHUncaughtExceptionHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		811F416544CC26632E753AD1AC321678 /* Pods-CHUncaughtExceptionHandler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHUncaughtExceptionHandler_Example-resources.sh"; sourceTree = "<group>"; };
+		939C9893BD532E1F6AD76EEB5DE6F509 /* Pods-CHUncaughtExceptionHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHUncaughtExceptionHandler_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9614EE257305D1D5260D6879C8D913DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A44D9FA659511A0C9AB1E5F4898AC269 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A602B5E78658CAD5F4B6265BFB67C14E /* CHUncaughtExceptionHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHUncaughtExceptionHandler-umbrella.h"; sourceTree = "<group>"; };
+		A7353D07EB455E369FD4FE4F345D476C /* Pods-CHUncaughtExceptionHandler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHUncaughtExceptionHandler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A7EA9FA62D7C5329ACD8F647B137C1FB /* CHUncaughtExceptionHandler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHUncaughtExceptionHandler.xcconfig; sourceTree = "<group>"; };
+		AF936D5429D836C78A121CAA8374760D /* Pods-CHUncaughtExceptionHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHUncaughtExceptionHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B4A8EB8D5C5B8AE846E57917CF38F122 /* CHConsts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHConsts.h; path = CHUncaughtExceptionHandler/Classes/CHConsts.h; sourceTree = "<group>"; };
+		B580A84C1FA23083F00136EF537E688D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE1E97CCCEEF43BA4D8D7F0CF49C550 /* Pods-CHUncaughtExceptionHandler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHUncaughtExceptionHandler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C260B9611D589900EA3B59A66755C74A /* CHLogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHLogViewController.h; path = CHUncaughtExceptionHandler/Classes/CHLogViewController.h; sourceTree = "<group>"; };
+		CA996270BF93A986D819C2F3D4E24AF7 /* CHUncaughtExceptionHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHUncaughtExceptionHandler-dummy.m"; sourceTree = "<group>"; };
+		CBD4FE0D451531524F87DF30CB33B157 /* CHLogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHLogViewController.m; path = CHUncaughtExceptionHandler/Classes/CHLogViewController.m; sourceTree = "<group>"; };
+		D3CB2CF63C1BA3F95463EB8BB348BAA8 /* Pods-CHUncaughtExceptionHandler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHUncaughtExceptionHandler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9B0C67B17CCB1E85C65E6DCBFE074A3 /* Pods-CHUncaughtExceptionHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHUncaughtExceptionHandler_Tests-dummy.m"; sourceTree = "<group>"; };
+		EAD1C9F084A3B6E1745E058FC82A3EAB /* CHUncaughtExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHUncaughtExceptionHandler.h; path = CHUncaughtExceptionHandler/Classes/CHUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		F079B03AD17670A26F7438E77F79CE16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F6A33B3E20532049D665E0E8C8990355 /* CHUncaughtExceptionHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHUncaughtExceptionHandler-prefix.pch"; sourceTree = "<group>"; };
+		FEAB144907352C9BD1595C6BE53BE81B /* CHUncaughtExceptionHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHUncaughtExceptionHandler.modulemap; sourceTree = "<group>"; };
+		FF1FF3AF149084E5539FA46A8879EF3B /* Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A05B3E294765ECE28FD3DBDDF3B813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7390BEE7720C5CBC02A94A134E9937D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D426134AFBDB0DDE036A478B9B550C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CE02C13EB2837AF6605B46A442CF86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2621D602DD8B2EF78FE795084C2AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366954806092CD9F2029E5F760C217A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01722C44F30CFBA72A85702434137A2E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				04FA172FD369310CCD07E2044A91916E /* CHUncaughtExceptionHandler.podspec */,
+				F079B03AD17670A26F7438E77F79CE16 /* LICENSE */,
+				9614EE257305D1D5260D6879C8D913DD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33AACDE820BBD679AACFAF0BF67B8459 /* CHUncaughtExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8EB8D5C5B8AE846E57917CF38F122 /* CHConsts.h */,
+				C260B9611D589900EA3B59A66755C74A /* CHLogViewController.h */,
+				CBD4FE0D451531524F87DF30CB33B157 /* CHLogViewController.m */,
+				EAD1C9F084A3B6E1745E058FC82A3EAB /* CHUncaughtExceptionHandler.h */,
+				35D25BE69C4704D6384EF883A0AF6EE9 /* CHUncaughtExceptionHandler.m */,
+				01722C44F30CFBA72A85702434137A2E /* Pod */,
+				3D77B93E03FDC7EF1CFB9B2276DE4CF1 /* Support Files */,
+			);
+			name = CHUncaughtExceptionHandler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3D77B93E03FDC7EF1CFB9B2276DE4CF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB144907352C9BD1595C6BE53BE81B /* CHUncaughtExceptionHandler.modulemap */,
+				A7EA9FA62D7C5329ACD8F647B137C1FB /* CHUncaughtExceptionHandler.xcconfig */,
+				CA996270BF93A986D819C2F3D4E24AF7 /* CHUncaughtExceptionHandler-dummy.m */,
+				F6A33B3E20532049D665E0E8C8990355 /* CHUncaughtExceptionHandler-prefix.pch */,
+				A602B5E78658CAD5F4B6265BFB67C14E /* CHUncaughtExceptionHandler-umbrella.h */,
+				B580A84C1FA23083F00136EF537E688D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHUncaughtExceptionHandler";
+			sourceTree = "<group>";
+		};
+		4D64E2077670540688D6A2793748CCC3 /* Pods-CHUncaughtExceptionHandler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				10793A498679A64D7BF4705396F3FEB0 /* Info.plist */,
+				7BC8941333898E680F59D86CF238A992 /* Pods-CHUncaughtExceptionHandler_Tests.modulemap */,
+				7DF79AFC959037F9E4F549DC01FB428D /* Pods-CHUncaughtExceptionHandler_Tests-acknowledgements.markdown */,
+				D3CB2CF63C1BA3F95463EB8BB348BAA8 /* Pods-CHUncaughtExceptionHandler_Tests-acknowledgements.plist */,
+				D9B0C67B17CCB1E85C65E6DCBFE074A3 /* Pods-CHUncaughtExceptionHandler_Tests-dummy.m */,
+				BBE1E97CCCEEF43BA4D8D7F0CF49C550 /* Pods-CHUncaughtExceptionHandler_Tests-frameworks.sh */,
+				0314535B29997BA5ED90F3F68692D375 /* Pods-CHUncaughtExceptionHandler_Tests-resources.sh */,
+				0163B5CE73CB854D2002BF66534AA5F1 /* Pods-CHUncaughtExceptionHandler_Tests-umbrella.h */,
+				5B3DFF52A972FA94CA950690649EA196 /* Pods-CHUncaughtExceptionHandler_Tests.debug.xcconfig */,
+				6BE32B7299EEDF37CAA6B14E6D70CFA5 /* Pods-CHUncaughtExceptionHandler_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHUncaughtExceptionHandler_Tests";
+			path = "Target Support Files/Pods-CHUncaughtExceptionHandler_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		618D28DF340F1569955D58C1EF015FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28AD70DEA4287A35F4BE8600C8B07964 /* CHUncaughtExceptionHandler.framework */,
+				1A55BC28E43EC492156386500CC0F53B /* Pods_CHUncaughtExceptionHandler_Example.framework */,
+				01D5DE850DFC4D8C3AB0B613063F89A9 /* Pods_CHUncaughtExceptionHandler_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AADAEC9AED0F077831EFCC7FD6C46E92 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				618D28DF340F1569955D58C1EF015FAA /* Products */,
+				C843B614B5C445A28EADA6DA1445CE73 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AADAEC9AED0F077831EFCC7FD6C46E92 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33AACDE820BBD679AACFAF0BF67B8459 /* CHUncaughtExceptionHandler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C843B614B5C445A28EADA6DA1445CE73 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27021E559E34411950BDC9CBE94F20F /* Pods-CHUncaughtExceptionHandler_Example */,
+				4D64E2077670540688D6A2793748CCC3 /* Pods-CHUncaughtExceptionHandler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E27021E559E34411950BDC9CBE94F20F /* Pods-CHUncaughtExceptionHandler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A44D9FA659511A0C9AB1E5F4898AC269 /* Info.plist */,
+				939C9893BD532E1F6AD76EEB5DE6F509 /* Pods-CHUncaughtExceptionHandler_Example.modulemap */,
+				1B339E4985B52874C69F0FCC2490A808 /* Pods-CHUncaughtExceptionHandler_Example-acknowledgements.markdown */,
+				659AEA42D6F37DD106C5F84B4E2B468F /* Pods-CHUncaughtExceptionHandler_Example-acknowledgements.plist */,
+				66BF95C6962DF4A05F23618E67BD1989 /* Pods-CHUncaughtExceptionHandler_Example-dummy.m */,
+				A7353D07EB455E369FD4FE4F345D476C /* Pods-CHUncaughtExceptionHandler_Example-frameworks.sh */,
+				811F416544CC26632E753AD1AC321678 /* Pods-CHUncaughtExceptionHandler_Example-resources.sh */,
+				7CEC594DD2BC6262D52518D37B835B0C /* Pods-CHUncaughtExceptionHandler_Example-umbrella.h */,
+				FF1FF3AF149084E5539FA46A8879EF3B /* Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig */,
+				AF936D5429D836C78A121CAA8374760D /* Pods-CHUncaughtExceptionHandler_Example.release.xcconfig */,
+			);
+			name = "Pods-CHUncaughtExceptionHandler_Example";
+			path = "Target Support Files/Pods-CHUncaughtExceptionHandler_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5799778B768DD9E9CBFFEA402CC34D52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34492B38EB192E778944AA9E46ED5E82 /* CHConsts.h in Headers */,
+				542C907F08CE6468E3799D25C46703A6 /* CHLogViewController.h in Headers */,
+				824CE069B8835E85B48D9E457AB38483 /* CHUncaughtExceptionHandler-umbrella.h in Headers */,
+				CD2895A51FE1C3FA6600AC051C61F93B /* CHUncaughtExceptionHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D1CF2B229266F4E44AB49422B23CAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CCC3615D2861F9E5841B3262593477 /* Pods-CHUncaughtExceptionHandler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C60A88C0D988039EE72EFB3E312DED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBD209CA0258DB8FABA8ED6628C1375 /* Pods-CHUncaughtExceptionHandler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		012687353EFABA260783DD4DFFC7CF21 /* Pods-CHUncaughtExceptionHandler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CD3CDFCAEEF9EE6F9B9260902116D6 /* Build configuration list for PBXNativeTarget "Pods-CHUncaughtExceptionHandler_Tests" */;
+			buildPhases = (
+				BA0C76288C139D02ED840502C2F14D2C /* Sources */,
+				D426134AFBDB0DDE036A478B9B550C7A /* Frameworks */,
+				62D1CF2B229266F4E44AB49422B23CAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773566E06072876C2507439ED45F9010 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHUncaughtExceptionHandler_Tests";
+			productName = "Pods-CHUncaughtExceptionHandler_Tests";
+			productReference = 01D5DE850DFC4D8C3AB0B613063F89A9 /* Pods_CHUncaughtExceptionHandler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A0FAE257B676B60DA347FFC6FBE19A9 /* Pods-CHUncaughtExceptionHandler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AE79DEB1B882050E05BEAAB50B0F31 /* Build configuration list for PBXNativeTarget "Pods-CHUncaughtExceptionHandler_Example" */;
+			buildPhases = (
+				01087420B260C2947747A4E0B11E9E4A /* Sources */,
+				17A05B3E294765ECE28FD3DBDDF3B813 /* Frameworks */,
+				99C60A88C0D988039EE72EFB3E312DED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B427C4BED3F4F2F9898B2BFF23ED681 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHUncaughtExceptionHandler_Example";
+			productName = "Pods-CHUncaughtExceptionHandler_Example";
+			productReference = 1A55BC28E43EC492156386500CC0F53B /* Pods_CHUncaughtExceptionHandler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8531ABC9C526671187B87015280BF0F /* CHUncaughtExceptionHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E9859627C9A8C6FFF4F5D8CC51AAB2 /* Build configuration list for PBXNativeTarget "CHUncaughtExceptionHandler" */;
+			buildPhases = (
+				297E7032FC0975E40DBB4D3AD765FEA4 /* Sources */,
+				DB2621D602DD8B2EF78FE795084C2AAC /* Frameworks */,
+				5799778B768DD9E9CBFFEA402CC34D52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHUncaughtExceptionHandler;
+			productName = CHUncaughtExceptionHandler;
+			productReference = 28AD70DEA4287A35F4BE8600C8B07964 /* CHUncaughtExceptionHandler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 618D28DF340F1569955D58C1EF015FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8531ABC9C526671187B87015280BF0F /* CHUncaughtExceptionHandler */,
+				7A0FAE257B676B60DA347FFC6FBE19A9 /* Pods-CHUncaughtExceptionHandler_Example */,
+				012687353EFABA260783DD4DFFC7CF21 /* Pods-CHUncaughtExceptionHandler_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01087420B260C2947747A4E0B11E9E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADFC81558137871CFEFB27ED9CD02BA /* Pods-CHUncaughtExceptionHandler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297E7032FC0975E40DBB4D3AD765FEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8CF7487954429F46C87E59B0822AD1 /* CHLogViewController.m in Sources */,
+				A435D1784803C946919C4ED46A624DFF /* CHUncaughtExceptionHandler-dummy.m in Sources */,
+				10AD7190F1573D753F613B9302756366 /* CHUncaughtExceptionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0C76288C139D02ED840502C2F14D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6E011B9B5B6409E5796731F9A347D5 /* Pods-CHUncaughtExceptionHandler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B427C4BED3F4F2F9898B2BFF23ED681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHUncaughtExceptionHandler;
+			target = E8531ABC9C526671187B87015280BF0F /* CHUncaughtExceptionHandler */;
+			targetProxy = 841F81C0095181BD8C5B62CD154C707C /* PBXContainerItemProxy */;
+		};
+		773566E06072876C2507439ED45F9010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHUncaughtExceptionHandler_Example";
+			target = 7A0FAE257B676B60DA347FFC6FBE19A9 /* Pods-CHUncaughtExceptionHandler_Example */;
+			targetProxy = D5BD7FA7048F8577E5B4C87615BE8AA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E8A661D38E3AC2BAFC45E4F0B78403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EA9FA62D7C5329ACD8F647B137C1FB /* CHUncaughtExceptionHandler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHUncaughtExceptionHandler/CHUncaughtExceptionHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHUncaughtExceptionHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHUncaughtExceptionHandler/CHUncaughtExceptionHandler.modulemap";
+				PRODUCT_MODULE_NAME = CHUncaughtExceptionHandler;
+				PRODUCT_NAME = CHUncaughtExceptionHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21B7E9172933B375881D3BC523952B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF936D5429D836C78A121CAA8374760D /* Pods-CHUncaughtExceptionHandler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Example/Pods-CHUncaughtExceptionHandler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E70F9AD427CE893BC35618A5088AAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EA9FA62D7C5329ACD8F647B137C1FB /* CHUncaughtExceptionHandler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHUncaughtExceptionHandler/CHUncaughtExceptionHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHUncaughtExceptionHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHUncaughtExceptionHandler/CHUncaughtExceptionHandler.modulemap";
+				PRODUCT_MODULE_NAME = CHUncaughtExceptionHandler;
+				PRODUCT_NAME = CHUncaughtExceptionHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FEDC3F14D5C270E008C61BC031AADAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3DFF52A972FA94CA950690649EA196 /* Pods-CHUncaughtExceptionHandler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Tests/Pods-CHUncaughtExceptionHandler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DE41D1729E775EBAAE774E94116A45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A1B674E244B57D318F46FF1D3E889DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C21B560B07529AE27E65705C9A557692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE32B7299EEDF37CAA6B14E6D70CFA5 /* Pods-CHUncaughtExceptionHandler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Tests/Pods-CHUncaughtExceptionHandler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F291316985DFAA3944FBAFB1EB527BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1FF3AF149084E5539FA46A8879EF3B /* Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHUncaughtExceptionHandler_Example/Pods-CHUncaughtExceptionHandler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B674E244B57D318F46FF1D3E889DDC /* Debug */,
+				6DE41D1729E775EBAAE774E94116A45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CD3CDFCAEEF9EE6F9B9260902116D6 /* Build configuration list for PBXNativeTarget "Pods-CHUncaughtExceptionHandler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEDC3F14D5C270E008C61BC031AADAD /* Debug */,
+				C21B560B07529AE27E65705C9A557692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AE79DEB1B882050E05BEAAB50B0F31 /* Build configuration list for PBXNativeTarget "Pods-CHUncaughtExceptionHandler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F291316985DFAA3944FBAFB1EB527BF7 /* Debug */,
+				21B7E9172933B375881D3BC523952B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E9859627C9A8C6FFF4F5D8CC51AAB2 /* Build configuration list for PBXNativeTarget "CHUncaughtExceptionHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E70F9AD427CE893BC35618A5088AAAC /* Debug */,
+				1E8A661D38E3AC2BAFC45E4F0B78403A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

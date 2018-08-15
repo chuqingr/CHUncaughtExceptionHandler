@@ -7,6 +7,8 @@
 //
 
 #import "CHViewController.h"
+//#import "CHUncaughtExceptionHandler-Prefix.pch"
+#import "CHUncaughtExceptionHandler-Prefix.pch"
 
 @interface CHViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

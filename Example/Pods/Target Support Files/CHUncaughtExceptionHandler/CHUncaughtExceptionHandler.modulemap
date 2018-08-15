@@ -1,0 +1,6 @@
+framework module CHUncaughtExceptionHandler {
+  umbrella header "CHUncaughtExceptionHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

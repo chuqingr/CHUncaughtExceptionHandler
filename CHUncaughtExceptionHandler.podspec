@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHUncaughtExceptionHandler'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of CHUncaughtExceptionHandler.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/杨胜浩/CHUncaughtExceptionHandler'
+  s.homepage         = 'https://github.com/chuqingr/CHUncaughtExceptionHandler'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '杨胜浩' => 'chuqingr@icloud.com' }
-  s.source           = { :git => 'https://github.com/杨胜浩/CHUncaughtExceptionHandler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chuqingr/CHUncaughtExceptionHandler.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

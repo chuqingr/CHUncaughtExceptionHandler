@@ -40,7 +40,7 @@
 		187CBB16F69EEBA49BB630FC /* Pods-CHUncaughtExceptionHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHUncaughtExceptionHandler_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHUncaughtExceptionHandler_Tests/Pods-CHUncaughtExceptionHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		30596353775A677FAFB01505 /* Pods_CHUncaughtExceptionHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHUncaughtExceptionHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		452D5E0939D16434F66019F8 /* Pods-CHUncaughtExceptionHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHUncaughtExceptionHandler_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHUncaughtExceptionHandler_Example/Pods-CHUncaughtExceptionHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
-		55991CE7E26909F5C15B8737 /* CHUncaughtExceptionHandler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHUncaughtExceptionHandler.podspec; path = ../CHUncaughtExceptionHandler.podspec; sourceTree = "<group>"; };
+		55991CE7E26909F5C15B8737 /* CHUncaughtExceptionHandler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHUncaughtExceptionHandler.podspec; path = ../CHUncaughtExceptionHandler.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CHUncaughtExceptionHandler_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHUncaughtExceptionHandler_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		677DC5E9B65FF2FEF94AA803 /* Pods-CHUncaughtExceptionHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHUncaughtExceptionHandler_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHUncaughtExceptionHandler_Tests/Pods-CHUncaughtExceptionHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FE61FDFC555CF4F0433CCF9 /* Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHUncaughtExceptionHandler_Example/Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A925C6037AD29BF34CDB1E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		83AEE67EB68C98619B925DAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7A925C6037AD29BF34CDB1E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83AEE67EB68C98619B925DAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E9A74C4B2E55CF46BCB8D57 /* Pods_CHUncaughtExceptionHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHUncaughtExceptionHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "杨胜浩";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 74UKG5A3GH;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,9 +488,11 @@
 			baseConfigurationReference = 6FE61FDFC555CF4F0433CCF9 /* Pods-CHUncaughtExceptionHandler_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74UKG5A3GH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHUncaughtExceptionHandler/CHUncaughtExceptionHandler-Prefix.pch";
 				INFOPLIST_FILE = "CHUncaughtExceptionHandler/CHUncaughtExceptionHandler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,9 +505,11 @@
 			baseConfigurationReference = 452D5E0939D16434F66019F8 /* Pods-CHUncaughtExceptionHandler_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74UKG5A3GH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHUncaughtExceptionHandler/CHUncaughtExceptionHandler-Prefix.pch";
 				INFOPLIST_FILE = "CHUncaughtExceptionHandler/CHUncaughtExceptionHandler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
