@@ -175,8 +175,9 @@ static CHUncaughtExceptionHandler *manager;
 }
 
 - (void)handleException:(NSException *)exception {
-
+#ifdef DEBUG
     [self validateAndSaveCriticalApplicationData:exception];
+#endif
 
     if (!showAlertView) {
         return;
