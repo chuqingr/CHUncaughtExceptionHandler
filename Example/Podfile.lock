@@ -1,5 +1,5 @@
 PODS:
-  - CHUncaughtExceptionHandler (1.0.0)
+  - CHUncaughtExceptionHandler (1.1.0)
 
 DEPENDENCIES:
   - CHUncaughtExceptionHandler (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CHUncaughtExceptionHandler: fc16b6a9b39c35c6dca981c2ef328cf5dfe45e26
+  CHUncaughtExceptionHandler: 9a6e3fbfd4d603219b2142cb77d095588cdbda04
 
-PODFILE CHECKSUM: a02d6d4d1b1b3c98f9790cee553f5bb551166325
+PODFILE CHECKSUM: 05e0a303c47d83758c5e4e1b1e16e0ef194bc5da
 
 COCOAPODS: 1.5.3
